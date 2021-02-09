@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["title"] = "Emergency";
+}
+
+<style>
+
+    body {
+        background-image: url('https://github.com/VictorLueders/ImagemTelaSite/blob/main/Tela2.png?raw=true');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+
+<div class="text-center">
+    <label style="font-size: 35px; font-family: Georgia; position:absolute; top:17%; left:75%; color: white">Olá, @ViewBag.Nome, selecione <br /> uma emergência</label>
+
+</div>
+
+<form action="/Home/Crimes" method="post">
+
+    <input type="submit" value="Crimes" style="background-color: white;
+        border: 0px;
+        width: 7%;
+        height: 9%;
+        position: absolute;
+        top: 30%;
+        left: 75%;
+        color: #3dbf37;
+        font-size: 25px;
+    ">
+</form>
+

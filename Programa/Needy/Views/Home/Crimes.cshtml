@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["title"] = "Crimes";
+}
+
+<style>
+    body {
+        background-image: url('https://github.com/VictorLueders/ImagemTelaSite/blob/main/tel%20crimes.png?raw=true');
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+</style>
+
+
+<div>
+
+    <label style="font-family:Georgia; font-size: 60px; position:absolute; left: 1%">Crimes</label>
+    <label style="font-family:Georgia; font-size: 30px; font-display:block; position:absolute; left: 1%; top: 12%"> Envolve todos os tipos de crimes como assaltos,<br /> furtos, invasões, entre outros, <br /> Dando prioridade ao serviço policial</label>
+
+
+</div>
+
+
+<form action="/Home/Waiting" method="post" style=" position:absolute; top:30%; left:83%;" >
+
+    <div>
+        <label style="font-family:Georgia; font-size: 28px;" >Selecione o crime</label><br />
+        <select style="width: 90%; height:2%;" class="text-center;">
+            <option value="Assalto">Assalto</option>
+            <option value="Furto">Furto</option>
+            <option value="InvasãoDomiciliar">Invasão Domiciliar</option>
+            <option value="Homicidio">Homicídio</option>
+            <option value="MercadoIlegal">Mercado Ilegal</option>
+
+        </select>
+    </div>
+    <br />
+    <div>
+        <label style="font-family:Georgia; font-size: 28px;" >Nível de urgência</label><br />
+        <select style="width: 90%; height:2%;" class="text-center;">
+            <option value="Verde">Verde</option>
+            <option value="Amarelo">Amarelo</option>
+            <option value="Laranja">Laranja</option>
+            <option value="Vermelho">Vermelho</option>
+        </select>
+    </div>
+    <br />
+    <div>
+        <label style="font-family:Georgia; font-size: 28px;">Observações</label>
+        <input type="text" name="obs" style="width: 90%; height:5%;"/>
+
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <input type="submit" name="Chamar" value="Chamar" style = "background-color: #3dbf37; width:90%; height: 30%; color: white; position:absolute; font-size: 40px; border:0px;"/>
+
+</form>
+
+
+

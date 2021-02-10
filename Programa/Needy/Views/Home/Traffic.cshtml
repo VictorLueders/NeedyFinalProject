@@ -15,3 +15,45 @@
     }
 
 </style>
+
+<div>
+
+    <label style="font-family:Georgia; font-size: 55px; position:absolute; left: 1%">Tráfego</label>
+    <label style="font-family:Georgia; font-size: 23px; font-display:block; position:absolute; left: 1%; top: 12%">Envolve todos os tipos de descasos no tráfico, como<br />motoristas alcoolizados, atropelamentos, entre outros.<br />Dando prioridade ao serviço de GMT</label>
+
+</div>
+
+<form action="/Home/Waiting" style="position: absolute; top: 30%; left: 81%;">
+
+
+    <div>
+        <label style="font-size: 28px; font-family:Georgia;">Selecione o acidente</label>
+        <br />
+        <select>
+            <option value="AltaVelocidade">Alta Velocidade</option>
+            <option value="Atropelamento">Atropelamento</option>
+            <option value="Batida">Batida</option>
+            <option value="Alterado">Motorista sob efeito de entorpecentes</option>
+        </select>
+    </div>
+    <br />
+    <div>
+        <label style="font-size:28px;">Nível de urgência</label>
+        <br />
+        <select>
+            <option value="Verde">Verde</option>
+            <option value="Amarelo">Amarelo</option>
+            <option value="Laranja">Laranja</option>
+            <option value="Vermelho">Vermelho</option>
+        </select>
+    </div>
+    <br />
+    <div>
+        <label style="font-family:Georgia; font-size: 28px;">Observações</label>
+        <input type="text" name="obs" style="width: 90%; height:5%;" />
+
+    </div>
+
+    <input type="submit" name="Chamar" value="Chamar" style="background-color: #3dbf37; width:90%; height: 30%; color: white; position:absolute; top: 125%; left: 44.5%; margin-right: -50%; transform: translate(-50%, -50%)" />
+
+</form>

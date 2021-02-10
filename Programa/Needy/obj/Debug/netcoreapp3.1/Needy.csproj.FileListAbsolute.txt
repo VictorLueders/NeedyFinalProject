@@ -282,3 +282,8 @@ C:\Users\entra21\Desktop\Needy\Git\NeedyFinalProject\Programa\Needy\obj\Debug\ne
 C:\Users\entra21\Desktop\Needy\Git\NeedyFinalProject\Programa\Needy\obj\Debug\netcoreapp3.1\Razor\Views\Home\DomesticViolence.cshtml.g.cs
 C:\Users\entra21\Desktop\Needy\Git\NeedyFinalProject\Programa\Needy\obj\Debug\netcoreapp3.1\Razor\Views\Home\Health.cshtml.g.cs
 C:\Users\entra21\Desktop\Needy\Git\NeedyFinalProject\Programa\Needy\obj\Debug\netcoreapp3.1\Razor\Views\Home\Traffic.cshtml.g.cs
+C:\Users\entra21\Desktop\Needy\NeedyFinalProject\Programa\Needy\obj\Debug\netcoreapp3.1\Razor\Views\Home\Animals.cshtml.g.cs
+C:\Users\entra21\Desktop\Needy\NeedyFinalProject\Programa\Needy\obj\Debug\netcoreapp3.1\Razor\Views\Home\DomesticViolence.cshtml.g.cs
+C:\Users\entra21\Desktop\Needy\NeedyFinalProject\Programa\Needy\obj\Debug\netcoreapp3.1\Razor\Views\Home\Fire.cshtml.g.cs
+C:\Users\entra21\Desktop\Needy\NeedyFinalProject\Programa\Needy\obj\Debug\netcoreapp3.1\Razor\Views\Home\Health.cshtml.g.cs
+C:\Users\entra21\Desktop\Needy\NeedyFinalProject\Programa\Needy\obj\Debug\netcoreapp3.1\Razor\Views\Home\Traffic.cshtml.g.cs

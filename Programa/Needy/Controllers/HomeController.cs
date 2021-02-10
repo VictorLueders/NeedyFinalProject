@@ -24,7 +24,7 @@ namespace Needy.Controllers
         {
             return View();
         }
-        
+
         [HttpPost]
         public IActionResult Emergency(string nome, string cpf, string rg)
         {
@@ -39,11 +39,6 @@ namespace Needy.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Waiting()
-        {
-            return View();
-        }
 
         [HttpPost]
         public IActionResult Fire()
@@ -51,6 +46,36 @@ namespace Needy.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult DomesticViolence()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Health()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Traffic()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Animals()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult Waiting()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

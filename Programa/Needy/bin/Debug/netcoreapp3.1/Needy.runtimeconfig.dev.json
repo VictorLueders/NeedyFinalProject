@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\stibe\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\stibe\\.nuget\\packages",
+      "C:\\Users\\entra21\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\entra21\\.nuget\\packages",
       "C:\\Microsoft\\Xamarin\\NuGet"
     ]
   }

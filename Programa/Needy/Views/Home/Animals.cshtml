@@ -10,8 +10,50 @@
 
     body {
         background-image: url('https://github.com/VictorLueders/ImagemTelaSite/blob/main/TelaAnimais.png?raw=true');
-        background-size:cover;
-        background-repeat:no-repeat;        
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-
 </style>
+
+
+<div>
+
+    <label style="font-family:Georgia; font-size: 55px; position:absolute; left: 1%">Animais</label>
+    <label style="font-family:Georgia; font-size: 23px; font-display:block; position:absolute; left: 1%; top: 12%"> Envolve todos os tipos de ocorrências animais, como<br /> animais perdidos, maus-tratos, entre outros. <br /> Dando prioridade ao serviço do Ibama.</label>
+
+</div>
+
+
+<form action="/Home/Waiting" method="post" style=" position:absolute; top:30%; left:82.5%">
+
+    <div>
+        <label style="font-family:Georgia; font-size: 28px;">Selecione a ocasião</label><br />
+        <select style="width: 90%; height:2%;" class="text-center;">
+            <option value="ASelvagem">Animal Selvagem</option>
+            <option value="ADoente">Animal Doente</option>
+            <option value="MTratos">Maus Tratos</option>
+            <option value="APerdido">Animal Perdido</option>
+            >
+
+        </select>
+    </div>
+    <br />
+    <div>
+        <label style="font-family:Georgia; font-size: 28px;">Nível de urgência</label><br />
+        <select style="width: 90%; height:2%;" class="text-center;">
+            <option value="Verde">Verde</option>
+            <option value="Amarelo">Amarelo</option>
+            <option value="Laranja">Laranja</option>
+            <option value="Vermelho">Vermelho</option>
+        </select>
+    </div>
+    <br />
+    <div>
+        <label style="font-family:Georgia; font-size: 28px;">Observações</label>
+        <input type="text" name="obs" style="width: 90%; height:5%;" />
+
+    </div>
+
+    <input type="submit" name="Chamar" value="Chamar" style="background-color: #3dbf37; width:90%; height: 30%; color: white; position:absolute; top: 125%; left: 44.5%; margin-right: -50%; transform: translate(-50%, -50%)" />
+
+</form>

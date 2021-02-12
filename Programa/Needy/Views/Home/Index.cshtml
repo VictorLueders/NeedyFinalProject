@@ -2,55 +2,49 @@
     ViewData["Title"] = "Home Page";
 }
 
-
-<footer>
-
-    <form action="/Home/Emergency" method="post" class="text-center" style="position:absolute; top:63%; left: 90%; margin-right: -50%; transform: translate(-50%, -50%); font-size: 25px;">
-
-        <div style="font-size: 50px; font-family: Georgia">
-            <label>Cadastro</label>
-        </div>
-
-        <div>
-            <label>Insira seu nome</label><br />
-            <input type="text" name="Nome" value="Nome" />
-
-        </div>
-
-        <div>
-            <label>Insira seu CPF</label><br />
-            <input type="text" name="Cpf" value="000.000.000-00" />
-
-        </div>
-
-        <div>
-            <label>Insira seu RG</label><br />
-            <input type="text" name="Rg" value="RG" />
-
-        </div>
-
-        <br />
-
-        <input type="submit" name="Cadastrar" value="Cadastrar" style="background-color: #3dbf37; border: 90px;"/>
-
-
-    </form>
-</footer>
-
-
-
-
-
-
-
 <style>
     body {
         background-image: url('https://github.com/VictorLueders/ImagemTelaSite/blob/main/Tela1.png?raw=true');
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-   
 </style>
+
+
+<div style="font-size: 45px; font-family: Georgia; position:absolute; top:35.7%; left: 83.4%;">
+    <label>Cadastro</label>
+</div>
+
+<form action="/Home/Emergency" method="post" class="text-center" style="position:absolute; top:67%; left: 89.7%; margin-right: -50%; transform: translate(-50%, -50%); font-size: 20px;">
+
+
+    <div>
+        <label>Insira seu nome</label><br />
+        <input type="text" name="Nome" value="Nome" />
+
+    </div>
+
+    <div>
+        <label>Insira seu CPF</label><br />
+        <input type="text" name="Cpf" value="000.000.000-00" />
+
+    </div>
+
+    <div>
+        <label>Insira seu RG</label><br />
+        <input type="text" name="Rg" value="RG" />
+
+    </div>
+
+    <br />
+    <input class="btn btn-green" ; type="submit" name="Cadastrar" value="Cadastrar"; top: 80%; left: 120%; margin-right: -50%; transform: translate(-50%, -50%);" />
+
+</form>
+
+
+
+
+
+
 
 

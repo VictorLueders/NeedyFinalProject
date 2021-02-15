@@ -9,15 +9,16 @@
 <div>
 
     <label style="font-family:Georgia; font-size: 55px; position:absolute; left: 1%">Saúde</label>
-    <label style="font-family:Georgia; font-size: 23px; font-display:block; position:absolute; left: 1%; top: 12%"> Envolve todos os tipos de acidentes domesticos,<br /> Comerciais, locais entre outros. <br /> Dando prioridade ao serviço do Samu da região</label>
+    <label style="font-family:Georgia; font-size: 23px; font-display:block; position:absolute; left: 0.3%; top: 12%"> Envolve todos os tipos de acidentes domesticos,<br /> comerciais, locais entre outros. <br /> Dando prioridade ao serviço do Samu da região.</label>
 
 </div>
 
-<form action="/Home/Waiting" method="post" style=" position:absolute; top:30%; left:82.5%">
+<form action="/Home/Waiting" method="post" style=" position:absolute; top:33%; left:81.5%">
 
     <div>
-        <label style="font-family:Georgia; font-size: 25px;">Selecione um acidente</label><br />
+        <label style="font-family:Georgia; font-size: 24px;">Selecione um acidente</label><br />
         <select style="width: 90%; height:2%;" class="text-center;">
+            <option value="" disabled selected>Selecione</option>
             <option value="Afogamento">Afogamento</option>
             <option value="Asfixia">Asfixia</option>
             <option value="Ataque Cardiaco">Ataque Cardiaco</option>
@@ -25,7 +26,7 @@
             <option value="Choque Elétrico">Choque</option>
             <option value="Cortes">Cortes</option>
             <option value="Desmaio">Desmaio</option>
-            <option value="Intoxicação ou envenenamento">Intoxicação ou envenenamento</option>
+            <option value="Intoxicação ou envenenamento">Intoxicação ou Envenenamento</option>
             <option value="Quedas">Quedas</option>
             <option value="Queimaduras">Queimaduras</option>
         </select>
@@ -34,10 +35,11 @@
     <div>
         <label style="font-family:Georgia; font-size: 28px;">Nível de urgência</label><br />
         <select style="width: 90%; height:2%;" class="text-center;">
-            <option value="Verde">Verde</option>
-            <option value="Amarelo">Amarelo</option>
-            <option value="Laranja">Laranja</option>
-            <option value="Vermelho">Vermelho</option>
+            <option value="" disabled selected>Selecione</option>
+            <option style="color:green" value="Verde">Verde</option>
+            <option style="color:goldenrod" value="Amarelo">Amarelo</option>
+            <option style="color:orangered" value="Laranja">Laranja</option>
+            <option style="color:red" value="Vermelho">Vermelho</option>
         </select>
     </div>
     <br />
@@ -47,7 +49,7 @@
 
     </div>
 
-    <input type="submit" class="btn btn-green" ; name="Chamar" value="Chamar" style="background-color: #3dbf37; width:90%; height: 20%; color: white; position:absolute; top: 115%; left: 44.5%; margin-right: -50%; transform: translate(-50%, -50%)" />
+    <input type="submit" class="btn btn-green" ; name="Chamar" value="Chamar" style="background-color: #3dbf37; width:90%; height: 20%; color: white; position:absolute; top: 118%; left: 44.5%; margin-right: -50%; transform: translate(-50%, -50%)" />
 </form>
 
 

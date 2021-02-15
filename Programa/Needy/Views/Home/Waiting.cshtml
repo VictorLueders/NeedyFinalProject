@@ -5,7 +5,6 @@
     ViewData["title"] = "Waiting";
 }
 
-
 <style>
     body {
         background-image: url('https://github.com/VictorLueders/ImagemTelaSite/blob/main/TelaAguardo.png?raw=true');
@@ -14,20 +13,17 @@
     }
 </style>
 
+<form action="/Home/Index" method="post" ;>
 
-<form action="/Home/Index" method="post" style="position: absolute; top: 10%; left:58%; text-align:center;">
+    <div style="position: absolute; top: 10%; left: 58%; text-align: center">
 
-
-    <div>
-
-        <label style="font-size: 35px; color: white;">Chamamos os serviços para você.</label>
-        <br />
+        <label style="font-size: 35px; color: white;">Chamamos os serviços para você.</label><br />
         <label style="font-size: 30px; color: white;">Favor aguarde no local de chamada</label>
+
+
+        <input type="submit" ; class="wait" name="btnVoltar" value="Voltar" />
 
     </div>
 
-   
-
-    <input type="submit"  class="wait"; name="btnVoltar" value="Voltar" style="position:absolute; top:100%; left: 10%; width:90%; height: 25%;" />
 
 </form>

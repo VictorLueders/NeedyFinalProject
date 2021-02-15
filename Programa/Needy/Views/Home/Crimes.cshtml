@@ -8,8 +8,8 @@
 <style>
     body {
         background-image: url('https://github.com/VictorLueders/ImagemTelaSite/blob/main/tel%20crimes.png?raw=true');
-        background-repeat:no-repeat;
-        background-size:cover;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 </style>
 
@@ -22,15 +22,16 @@
 </div>
 
 
-<form action="/Home/Waiting" method="post" style=" position:absolute; top:30%; left:82.5%">
+<form action="/Home/Waiting" method="post" style=" position:absolute; top:32.5%; left:82.5%">
 
     <div>
         <label style="font-family:Georgia; font-size: 28px;">Selecione o crime</label><br />
         <select style="width: 90%; height:2%;" class="text-center;">
+            <option value="" disabled selected>Selecione</option>
             <option value="Assalto">Assalto</option>
             <option value="Furto">Furto</option>
-            <option value="InvasãoDomiciliar">Invasão Domiciliar</option>
             <option value="Homicidio">Homicídio</option>
+            <option value="InvasãoDomiciliar">Invasão Domiciliar</option>
             <option value="MercadoIlegal">Mercado Ilegal</option>
 
         </select>
@@ -39,10 +40,11 @@
     <div>
         <label style="font-family:Georgia; font-size: 28px;">Nível de urgência</label><br />
         <select style="width: 90%; height:2%;" class="text-center;">
-            <option value="Verde">Verde</option>
-            <option value="Amarelo">Amarelo</option>
-            <option value="Laranja">Laranja</option>
-            <option value="Vermelho">Vermelho</option>
+            <option value="" disabled selected>Selecione</option>
+            <option style="color:green" value="Verde">Verde</option>
+            <option style="color:goldenrod" value="Amarelo">Amarelo</option>
+            <option style="color:orangered" value="Laranja">Laranja</option>
+            <option style="color:red" value="Vermelho">Vermelho</option>
         </select>
     </div>
     <br />
@@ -52,7 +54,7 @@
 
     </div>
     <br />
-    <input type="submit" class="btn btn-green" ; name="Chamar" value="Chamar" style="background-color: #3dbf37; width:90%; height: 20%; color: white; position:absolute; top: 118%; left: 44.5%; margin-right: -50%; transform: translate(-50%, -50%)" />
+    <input type="submit" class="btn btn-green" ; name="Chamar" value="Chamar" style="background-color: #3dbf37; width:90%; height: 20%; color: white; position:absolute; top: 110%; left: 44.5%; margin-right: -50%; transform: translate(-50%, -50%)" />
 </form>
 
 

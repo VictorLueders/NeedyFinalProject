@@ -73,6 +73,7 @@ body {
     line-height: 60px; /* Vertically center the text there */
 }
 
+
 .emergency {
     background-color: white;
     color: #006000;
@@ -81,7 +82,7 @@ body {
 
     .emergency:hover {
         background: white;
-        color: black;
+        color: dimgray;
         box-shadow: 0 5px 0 #003f00;
     }
 
@@ -104,12 +105,6 @@ body {
         box-shadow: 0 5px 0 #003f00;
     }
 
-.wait {
-    background: forestgreen;
-    color: #fff;
-    box-shadow: 0 5px 0 #006000;
-}
-
 .button {
     font-size: 20px;
     background-color: forestgreen;
@@ -123,11 +118,25 @@ body {
         box-shadow: 0 5px 0 #003f00;
     }
 
-.wait:hover {
-    background: #006000;
+.wait {
+    font-size: 20px;
+    background: forestgreen;
     color: #fff;
-    box-shadow: 0 5px 0 #003f00;
+    box-shadow: 0 5px 0 #006000;
+    position: absolute;
+    top: 462%;
+    left: 48%;
+    width: 95%;
+    height: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
+
+    .wait:hover {
+        background: #006000;
+        color: #fff;
+        box-shadow: 0 5px 0 #003f00;
+    }
 
 
 /*    .btn-green:active {

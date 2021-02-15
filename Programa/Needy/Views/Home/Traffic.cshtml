@@ -22,14 +22,14 @@
 
 </div>
 
-<form action="/Home/Waiting" method="post" ; style="position: absolute; top: 30%; left: 81%;">
+<form action="/Home/Waiting" method="post" ; style="position: absolute; top: 33%; left: 81%;">
 
 
     <div>
         <label style="font-size: 28px; font-family:Georgia;">Selecione o acidente</label><br />
 
         <select style="width: 90%; height:2%;" class="text-center;">
-            <option value=""></option>
+            <option value="" disabled selected>Selecione</option>
             <option value="AltaVelocidade">Alta Velocidade</option>
             <option value="Atropelamento">Atropelamento</option>
             <option value="Batida">Batida</option>
@@ -41,11 +41,11 @@
     <div>
         <label style="font-family:Georgia; font-size: 28px;">Nível de urgência</label><br />
         <select style="width: 90%; height:2%;" class="text-center;">
-            <option value=""></option>
-            <option value="Verde">Verde</option>
-            <option value="Amarelo">Amarelo</option>
-            <option value="Laranja">Laranja</option>
-            <option value="Vermelho">Vermelho</option>
+            <option value="" disabled selected>Selecione</option>
+            <option style="color:green" value="Verde">Verde</option>
+            <option style="color:goldenrod" value="Amarelo">Amarelo</option>
+            <option style="color:orangered" value="Laranja">Laranja</option>
+            <option style="color:red" value="Vermelho">Vermelho</option>
         </select>
     </div>
     <br />
@@ -55,5 +55,5 @@
 
     </div>
 
-    <input type="submit" class="btn btn-green" ; name="Chamar" value="Chamar" style="background-color: #3dbf37; width:90%; height: 20%; color: white; position:absolute; top: 118%; left: 44.5%; margin-right: -50%; transform: translate(-50%, -50%)" />
+    <input type="submit" class="btn btn-green" ; name="Chamar" value="Chamar" style="background-color: #3dbf37; width:90%; height: 20%; color: white; position:absolute; top: 120%; left: 44.5%; margin-right: -50%; transform: translate(-50%, -50%)" />
 </form>

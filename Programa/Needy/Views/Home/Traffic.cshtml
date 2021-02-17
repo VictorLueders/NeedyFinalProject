@@ -13,6 +13,47 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: forestgreen;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        transition: all 0.5s;
+        margin: 5px;
+        width: 210px;
+        height: 70px;
+        left: auto;
+    }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
 </style>
 
 <div>
@@ -29,7 +70,7 @@
         <label style="font-size: 28px; font-family:Georgia;">Selecione o acidente</label><br />
 
         <select style="width: 90%; height:2%;" class="text-center;">
-            <option value=""></option>
+            <option value="" disabled selected>Selecione</option>
             <option value="AltaVelocidade">Alta Velocidade</option>
             <option value="Atropelamento">Atropelamento</option>
             <option value="Batida">Batida</option>
@@ -41,19 +82,22 @@
     <div>
         <label style="font-family:Georgia; font-size: 28px;">Nível de urgência</label><br />
         <select style="width: 90%; height:2%;" class="text-center;">
-            <option value=""></option>
-            <option value="Verde">Verde</option>
-            <option value="Amarelo">Amarelo</option>
-            <option value="Laranja">Laranja</option>
-            <option value="Vermelho">Vermelho</option>
+            <option value="" disabled selected>Selecione</option>
+            <option style="color:green" value="Verde">Verde</option>
+            <option style="color:goldenrod" value="Amarelo">Amarelo</option>
+            <option style="color:orangered" value="Laranja">Laranja</option>
+            <option style="color:red" value="Vermelho">Vermelho</option>
         </select>
     </div>
     <br />
     <div>
         <label style="font-family:Georgia; font-size: 28px;">Observações</label>
         <input type="text" name="obs" style="width: 90%; height:5%;" />
-
     </div>
+    <br />
+    
+    <button class="button" style="vertical-align:middle"><span style="top: -25%;">Chamar</span></button>
 
-    <input type="submit" class="btn btn-green" ; name="Chamar" value="Chamar" style="background-color: #3dbf37; width:90%; height: 20%; color: white; position:absolute; top: 118%; left: 44.5%; margin-right: -50%; transform: translate(-50%, -50%)" />
+    @*<input type="submit" class="btn btn-green" ; name="Chamar" value="Chamar" style="background-color: #3dbf37; width:90%; height: 20%; color: white; position:absolute; top: 118%; left: 40.5%;" />*@
+
 </form>

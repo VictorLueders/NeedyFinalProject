@@ -7,12 +7,15 @@
 }
 
 <style>
+
+    /*Plano de fundo da tela - - Fire*/
     body {
         background-image: url('https://github.com/VictorLueders/ImagemTelaSite/blob/main/TelaIncendio.png?raw=true');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
+    /*Design Botão Chamar*/
     .button {
         display: inline-block;
         border-radius: 4px;
@@ -55,16 +58,16 @@
             }
 </style>
 
+@* Nome e descrição da categoria *@
 <div>
-
     <label style="font-family:Georgia; font-size: 55px; position:absolute; left: 1%">Incêndios</label>
     <label style="font-family:Georgia; font-size: 24px; font-display:block; position:absolute; left: 1%; top: 12%"> Envolve todos os tipos incêndios desde<br />domésticos a florestais.<br /> Dando prioridade ao serviço de bombeiros.</label>
 
 </div>
 
 
+@* Seleção de emergências *@
 <form action="/Home/Waiting" method="post" style=" position:absolute; top:30%; left:82.5%">
-
     <div>
         <label style="font-family:Georgia; font-size: 23px;">Selecione o tipo de incêndio</label><br />
 
@@ -77,7 +80,10 @@
 
         </select>
     </div>
+
     <br />
+
+    @* Design Escolha de Níveis de Emergência *@
     <div>
         <label style="font-family:Georgia; font-size: 27px;">Nível de urgência</label><br />
         <select style="width: 90%; height:2%;" class="text-center;">
@@ -88,12 +94,17 @@
             <option style="color:red" value="Vermelho">Vermelho</option>
         </select>
     </div>
+
     <br />
+
+    @* Caixa de Observações *@
     <div>
         <label style="font-family:Georgia; font-size: 27px;">Observações</label>
         <input type="text" name="obs" style="width: 90%; height:5%;" />
 
     </div>
-    <br/>
+
+    <br />
+
     <button class="button" style="vertical-align:middle"><span style="top: -25%;">Chamar</span></button>
 </form>

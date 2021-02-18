@@ -5,13 +5,17 @@
     ViewData["title"] = "Health";
 }
 
+@*Design*@
 <style>
+    /*Plano de fundo de fundo da tela - Health*/
 
     body {
         background-image: url('https://github.com/VictorLueders/ImagemTelaSite/blob/main/TelaSa%C3%BAde.png?raw=true');
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    /*Desing Botão Chamar*/
 
     .button {
         display: inline-block;
@@ -55,6 +59,7 @@
             }
 </style>
 
+@*Nome e desecrição da categoria*@
 <div>
 
     <label style="font-family:Georgia; font-size: 55px; position:absolute; left: 0.3%">Saúde</label>
@@ -62,8 +67,10 @@
 
 </div>
 
+@*Inserções do usuário*@
 <form action="/Home/Waiting" method="post" style=" position:absolute; top:31.5%; left:81.5%">
 
+    @*Seleção de emergência*@
     <div>
         <label style="font-family:Georgia; font-size: 24px;">Selecione um acidente</label><br />
         <select style="width: 90%; height:2%;" class="text-center;">
@@ -81,6 +88,8 @@
         </select>
     </div>
     <br />
+
+    @* Seleção de níveis de urgência *@
     <div>
         <label style="font-family:Georgia; font-size: 28px;">Nível de urgência</label><br />
         <select style="width: 90%; height:2%;" class="text-center;">
@@ -92,6 +101,8 @@
         </select>
     </div>
     <br />
+
+    @*Caixa de observações*@
     <div>
         <label style="font-family:Georgia; font-size: 28px;">Observações</label>
         <input type="text" name="obs" style="width: 90%; height:5%;" />

@@ -4,14 +4,18 @@
 @{
     ViewData["title"] = "Animals";
 }
+
+@*Estilização*@
 <style>
 
+    /*Plano defs fundo datalist tela - Animals*/
     body {
         background-image: url('https://github.com/VictorLueders/ImagemTelaSite/blob/main/TelaAnimais.png?raw=true');
         background-size: cover;
         background-repeat: no-repeat;
     }
 
+    /*Estilização dos botões*/
     .button {
         display: inline-block;
         border-radius: 4px;
@@ -54,7 +58,7 @@
             }
 </style>
 
-
+@*Nome e descrição da categoria*@
 <div>
 
     <label style="font-family:Georgia; font-size: 55px; position:absolute; left: 1%">Animais</label>
@@ -62,9 +66,10 @@
 
 </div>
 
-
+@*Inserções do usuário*@
 <form action="/Home/Waiting" method="post" style=" position:absolute; top:32%; left:82.5%">
 
+    @*Seleção de emergências*@
     <div>
         <label style="font-family:Georgia; font-size: 26.5px;">Selecione a ocasião</label><br />
         <select style="width: 90%; height:2%;" class="text-center;">
@@ -77,6 +82,8 @@
         </select>
     </div>
     <br />
+
+    @*Seleção de níveis de urgência*@
     <div>
         <label style="font-family:Georgia; font-size: 28px;">Nível de urgência</label><br />
         <select style="width: 90%; height:2%;" class="text-center;">
@@ -88,6 +95,8 @@
         </select>
     </div>
     <br />
+
+    @*Caixa de observações*@
     <div>
         <label style="font-family:Georgia; font-size: 28px;">Observações</label>
         <input type="text" name="obs" style="width: 90%; height:5%;" />

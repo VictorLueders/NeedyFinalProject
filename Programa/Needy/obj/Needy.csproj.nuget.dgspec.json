@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stibe\\Desktop\\Needy\\NeedyFinalProject\\Programa\\Needy\\Needy.csproj": {}
+    "C:\\Users\\entra21\\Desktop\\Needy\\Git\\NeedyFinalProject\\Programa\\Needy\\Needy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stibe\\Desktop\\Needy\\NeedyFinalProject\\Programa\\Needy\\Needy.csproj": {
+    "C:\\Users\\entra21\\Desktop\\Needy\\Git\\NeedyFinalProject\\Programa\\Needy\\Needy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stibe\\Desktop\\Needy\\NeedyFinalProject\\Programa\\Needy\\Needy.csproj",
+        "projectUniqueName": "C:\\Users\\entra21\\Desktop\\Needy\\Git\\NeedyFinalProject\\Programa\\Needy\\Needy.csproj",
         "projectName": "Needy",
-        "projectPath": "C:\\Users\\stibe\\Desktop\\Needy\\NeedyFinalProject\\Programa\\Needy\\Needy.csproj",
-        "packagesPath": "C:\\Users\\stibe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stibe\\Desktop\\Needy\\NeedyFinalProject\\Programa\\Needy\\obj\\",
+        "projectPath": "C:\\Users\\entra21\\Desktop\\Needy\\Git\\NeedyFinalProject\\Programa\\Needy\\Needy.csproj",
+        "packagesPath": "C:\\Users\\entra21\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\entra21\\Desktop\\Needy\\Git\\NeedyFinalProject\\Programa\\Needy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\stibe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\entra21\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

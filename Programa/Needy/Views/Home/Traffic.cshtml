@@ -5,15 +5,18 @@
     ViewData["title"] = "Traffic";
 }
 
-
+@*Estilização*@
 <style>
 
+
+    /*Plano de fundo da tela - Traffic*/
     body {
         background-image: url('https://github.com/VictorLueders/ImagemTelaSite/blob/main/TelaTr%C3%A2nsito.png?raw=true');
         background-size: cover;
         background-repeat: no-repeat;
     }
 
+    /*Estilização dos botões*/
     .button {
         display: inline-block;
         border-radius: 4px;
@@ -56,6 +59,7 @@
             }
 </style>
 
+@*Nome e descrição da categoria*@
 <div>
 
     <label style="font-family:Georgia; font-size: 55px; position:absolute; left: 1%">Tráfego</label>
@@ -63,9 +67,11 @@
 
 </div>
 
+@*Inserções do usuário*@
 <form action="/Home/Waiting" method="post" ; style="position: absolute; top: 30%; left: 81%;">
 
 
+    @*Seleção de emergências*@
     <div>
         <label style="font-size: 28px; font-family:Georgia;">Selecione o acidente</label><br />
 
@@ -79,6 +85,8 @@
 
     </div>
     <br />
+
+    @*Seleção de níveis de urgência*@
     <div>
         <label style="font-family:Georgia; font-size: 28px;">Nível de urgência</label><br />
         <select style="width: 90%; height:2%;" class="text-center;">
@@ -90,14 +98,15 @@
         </select>
     </div>
     <br />
+
+    @*Caixa de observações*@
     <div>
         <label style="font-family:Georgia; font-size: 28px;">Observações</label>
         <input type="text" name="obs" style="width: 90%; height:5%;" />
     </div>
     <br />
-    
-    <button class="button" style="vertical-align:middle"><span style="top: -25%;">Chamar</span></button>
 
-    @*<input type="submit" class="btn btn-green" ; name="Chamar" value="Chamar" style="background-color: #3dbf37; width:90%; height: 20%; color: white; position:absolute; top: 118%; left: 40.5%;" />*@
+    <button class="button" style="vertical-align:middle"><span style="top: -25%;">Chamar</span></button>
+    
 
 </form>
